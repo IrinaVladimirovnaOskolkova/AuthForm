@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+	background-color: #dbd9d9;
+}
+
+.main{
+	width: 40%;
+	margin: 15% auto;
+	text-align: center;
+}
+
+.form{
+	margin-bottom: 10px;
+}
+#login, #Password{
+	outline: none;
+	border: none;
+	padding: 2% 1%;
+	background-color: inherit;
+	box-shadow: 3px 3px 10px 0px rgba(70, 56, 84, 0.84);
+}
+#btn{
+	width: 60px;
+	background-color: rgba(70, 56, 84, 0.84);
+	border: none;
+	border-radius: 3px;
+	padding: 2% 1%;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+}
+#btn:disabled{
+	pointer-events: none;
+	background-color: inherit;
+	box-shadow: 3px 3px 10px 0px rgba(70, 56, 84, 0.84);
+	color: rgb(70, 56, 84);
+}
+#btn:hover{
+	box-shadow: 3px 3px 10px 0px rgba(70, 56, 84, 0.84);
+}
+#btn:active{
+	background-color: #fff;
+	color: rgb(70, 56, 84);
+}
+.text{
+	font-size: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	color: #878787;
+}

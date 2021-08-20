@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<title>Authorization form</title>
+</head>
+<body>
+	<div class="main">
+		<div class="form"><input type="text" id="login" maxlength="15" placeholder="Login" pattern="[A-Za-z]^[0-9]+$"></div>
+
+		<div class="form"><input type="password" id="Password" maxlength="8" placeholder="Password"></div>
+
+		<div class="form"><input type="button" id="btn" value="Sign in" disabled></div>
+
+		<p class="text">*Поля Login и Password могут содержать только латинские буквы и цифры.<br>*Поле Login может содержать 15 символов.<br>*Поле Password может содержать 10 символов.</p>
+	</div>
+<script type="text/javascript" src="app/script.js"></script>
+</body>
+</html>
